@@ -22,7 +22,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     {path:'home',component:HomeComponent},
     {path:'',redirectTo:'home',pathMatch:'full'},
     {path:'about',component:AboutComponent},
-    {path:'create',component:BlogCreateComponent}
+    {path:'create',component:BlogCreateComponent},{path:'**',component:NotFoundComponent}
   ])
   ],
   declarations: [ AppComponent, HelloComponent, HomeComponent, BlogViewComponent, BlogCreateComponent, BlogEditComponent, AboutComponent, NotFoundComponent ],
