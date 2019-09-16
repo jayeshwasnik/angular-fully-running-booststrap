@@ -14,7 +14,7 @@ p {
 .components{padding:50px;}
 
 .footer{
-	position: absolute;
+	position: relative;
 	width: 100%;
 	bottom: 0;
 	background-color: #f5f5f5;
